@@ -23,19 +23,19 @@ while True:
     if len(list2) == 5:
         break
 
-while True:
-    random_member = random.choice(all_list)
-    list3.append(random_member)
-    all_list.remove(random_member)
-    if len(list3) == 4:
-        break
+# while True:
+#     random_member = random.choice(all_list)
+#     list3.append(random_member)
+#     all_list.remove(random_member)
+#     if len(list3) == 4:
+#         break
 
 # for user in list1:
 #     print(user,end = "  ")
 
 print(f"{list1[0]} {list1[1]} {list1[2]} {list1[3]} {list1[4]} {list1[5]}")
 print(f"{list2[0]} {list2[1]} {list2[2]} {list2[3]} {list2[4]}")
-print(f"{list3[0]} {list3[1]} {list3[2]} {list3[3]}")
+print(f"{all_list[0]} {all_list[1]} {all_list[2]} {all_list[3]}")
 
 
 
